@@ -1,0 +1,168 @@
+/* ----------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------- */
+
+html,
+body {
+  /*background: #fff;
+  color: #555;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 300;*/
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+/* ----------------------------------------- */
+/* OPTIN */
+/* ----------------------------------------- */
+
+.optin {
+    background-color: #222;
+}
+
+.optin .subscribe {
+    /*display: inline-block;*/
+    margin: 17px 0 13px;
+}
+
+.subscribe-button {
+    background-color: #fff;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.auth-social-nav {
+    margin-top: 24px;
+    float: right;
+}
+
+.badge {
+    background-color: transparent;
+}
+
+.optin .nav>li>a:focus, .optin .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: red;
+}
+
+/*li {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}*/
+
+.optin .nav>li>a {
+    /*position: relative;
+    display: block;*/
+    /*border-radius: 0;*/
+    padding: 0 15px;
+    /*border-right: 1px solid #fff;*/
+}
+
+.optin .nav>li {
+    border-right: 1px solid #666666;
+}
+
+.optin .nav>li:last-child {
+    border-right: 0;
+}
+
+/* ----------------------------------------- */
+/* HEADER */
+/* ----------------------------------------- */
+
+header {
+    background-color: #eee;
+}
+
+.site-branding {
+    padding: 40px 0;
+}
+
+.site-branding p {
+    color: #999;
+}
+
+/* ----------------------------------------- */
+/* NAV */
+/* ----------------------------------------- */
+
+.main-nav {
+    text-align: center;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.main-nav li {
+  display: inline-block;
+  /*margin-left: 10px;
+  margin-right: 10px;*/
+}
+
+.main-nav li a {
+    padding: 30px 24px;
+    font-size: 80%;
+}
+
+/* ----------------------------------------- */
+/* QUICK MOCKUP */
+/* ----------------------------------------- */
+
+.featured-posts .row div,
+.most-popular .row div {
+    padding: 0;
+}
+
+.latest-posts-sidebar {
+    background-color: #eee;
+}
+
+.featured-posts {
+    border-top: 1px black solid;
+}
+
+.featured-posts img,
+.latest-posts-sidebar img,
+.most-popular img {
+    width: 100%;
+}
+
+.recent {
+    margin-top: 40px;
+}
+
+.recent-comments {
+    margin-top: 30px;
+}
+
+.most-popular {
+    background-color: #222;
+}
+
+.most-popular h1 {
+    color: white;
+}
+
+.pages {
+    background-color: #222;
+    color: white;
+}
+
+footer {
+    background-color: #191919;
+    color: white;
+}
+
+footer p {
+    display: inline-block;
+}
+
+footer ul {
+    display: inline-block;
+    margin-left: 500px;
+}
+
+footer li {
+    display: inline-block;
+}
