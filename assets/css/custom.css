@@ -23,13 +23,21 @@ body {
 
 .optin .subscribe {
     /*display: inline-block;*/
-    margin: 17px 0 13px;
+    margin: 17px 0 15px;
 }
 
 .subscribe-button {
     background-color: #fff;
-    padding: 5px;
-    font-size: 15px;
+    padding: 9px 15px;
+    font-size: 70%;
+    color: #666666;
+}
+
+.subscribe-button:focus,
+.subscribe-button:hover {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
 }
 
 .auth-social-nav {
@@ -44,7 +52,7 @@ body {
 .optin .nav>li>a:focus, .optin .nav>li>a:hover {
     text-decoration: none;
     background-color: transparent;
-    color: red;
+    color: #f8c200;
 }
 
 /*li {
@@ -103,6 +111,14 @@ header {
 .main-nav li a {
     padding: 30px 24px;
     font-size: 80%;
+    text-decoration: none;
+    color: #000;
+    font-size: 75%;
+}
+
+.main-nav li a:hover,
+.main-nav li a:focus {
+    color: #f8c200;
 }
 
 /* ----------------------------------------- */
@@ -118,9 +134,9 @@ header {
     background-color: #eee;
 }
 
-.featured-posts {
+/*.featured-posts {
     border-top: 1px black solid;
-}
+}*/
 
 .featured-posts img,
 .latest-posts-sidebar img,
